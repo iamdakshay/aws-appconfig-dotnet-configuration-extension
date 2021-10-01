@@ -1,0 +1,26 @@
+{
+    "Kafka": {
+        "BootstrapServers": "localhost",
+        "Producer": {
+            "ClientId": "19",
+            "StatisticsIntervalMs": 5000,
+            "MessageTimeoutMs": 10000,
+            "SocketTimeoutMs": 10000,
+            "ApiVersionRequestTimeoutMs": 10000,
+            "MetadataRequestTimeoutMs": 5000,
+            "RequestTimeoutMs": 5000
+        },
+        "Consumer": {
+            "GroupId": "49",
+            "EnableAutoCommit": true,
+            "StatisticsIntervalMs": 5000,
+            "SessionTimeoutMs": 10000
+        }
+    },
+    "RabbitMQ": {
+        "Uri": "localhost",
+        "UserName": "root@3",
+        "Password": "SWAMI",
+        "DispatchConsumersAsync": true
+    }
+}
