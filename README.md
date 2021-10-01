@@ -1,8 +1,6 @@
 ## DotnetCore Configuration extension for AWS AppConfig
 AWS AppConfig is a capability of AWS Systems Manager, to create, manage, and quickly deploy application configurations. You can store application configurations per environment and maitain versioned copies.
 
-<br><br>
-
 ### Projects
 
 - Amazon.Extensions.Configuration.AppConfig
