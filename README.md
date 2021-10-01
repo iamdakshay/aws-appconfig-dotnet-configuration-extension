@@ -1,6 +1,6 @@
 ## DotnetCore Configuration extension for AWS AppConfig
 
-Amazon Secrets Manager service provides secure store for key/value pairs. Unlike parameter store, the data stored in Secrets Manager is encrypted by default. You can use an extension to load config values in application's Configuration object. You must have saved config values in JSON format against keys in Secrets Manager.
+
 <br><br>
 
 ### Projects
